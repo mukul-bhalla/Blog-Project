@@ -13,7 +13,9 @@ const Navbar = () => {
                     <Link to="/article-list" className="pl-6 pr-8 ">
                         Articles List
                     </Link>
-
+                    <Link to="/article/:name" className="pl-6 pr-8 ">
+                        Article
+                    </Link>
                 </li>
             </ul>
 
